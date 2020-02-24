@@ -16,11 +16,11 @@ ro = 958.38;    %[kg/m3]
 U = 230;        %[V]
 I = 22;         %[A]
 
-% Design variables
-h = 0.05;    %[m]
-D = 0.15;    %[m]
-alfa = 60;  %[deg]
-w = 0.001;  %[m]
+% % Design variables
+% h = 0.2;    %[m]
+% D = 0.25;    %[m]
+% alfa = 70;  %[deg]
+% w = 0.001;  %[m]
 
 % %Geometry calc
 % [H,d,L,l] = geom_parameters(h,D,alfa);  %[m]
@@ -32,6 +32,6 @@ w = 0.001;  %[m]
 % time_range=[0 500];
 
 
-t_100C = time_100C([h,D,alfa,w]);
-[c ceq] = constraints([h,D,alfa,w]);
+% t_100C = time_100C([h,D,alfa,w]);
+% [c ceq] = constraints([h,D,alfa,w]);
 
